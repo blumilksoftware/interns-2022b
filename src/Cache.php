@@ -36,7 +36,7 @@ class Cache
     /**
      * @param Collection<Providers> $providers
      * @param Collection<Brewery> $breweries
-     * @throws JsonException|\JsonException
+     * @throws JsonException
      */
     public function rebuildCache(Collection $providers, Collection $breweries): void
     {
